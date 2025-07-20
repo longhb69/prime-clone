@@ -1,0 +1,11 @@
+D:\VideoStreaming\Domain\bin\Debug\net9.0\Domain.deps.json
+D:\VideoStreaming\Domain\bin\Debug\net9.0\Domain.dll
+D:\VideoStreaming\Domain\bin\Debug\net9.0\Domain.pdb
+D:\VideoStreaming\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\VideoStreaming\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+D:\VideoStreaming\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+D:\VideoStreaming\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+D:\VideoStreaming\Domain\obj\Debug\net9.0\Domain.dll
+D:\VideoStreaming\Domain\obj\Debug\net9.0\refint\Domain.dll
+D:\VideoStreaming\Domain\obj\Debug\net9.0\Domain.pdb
+D:\VideoStreaming\Domain\obj\Debug\net9.0\ref\Domain.dll

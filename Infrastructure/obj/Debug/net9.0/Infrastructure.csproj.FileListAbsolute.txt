@@ -1,0 +1,17 @@
+D:\VideoStreaming\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+D:\VideoStreaming\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+D:\VideoStreaming\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+D:\VideoStreaming\Infrastructure\bin\Debug\net9.0\Domain.dll
+D:\VideoStreaming\Infrastructure\bin\Debug\net9.0\Domain.pdb
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+D:\VideoStreaming\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+D:\VideoStreaming\Infrastructure\bin\Debug\net9.0\Application.dll
+D:\VideoStreaming\Infrastructure\bin\Debug\net9.0\Application.pdb

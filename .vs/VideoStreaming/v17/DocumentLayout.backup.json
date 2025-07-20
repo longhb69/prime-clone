@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VideoStreaming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\videostreaming\\infrastructure\\migrations\\20250720134639_changename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250720134639_changename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\videostreaming\\infrastructure\\migrations\\20250720104352_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250720104352_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\videostreaming\\infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\videostreaming\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\videostreaming\\infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\videostreaming\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\videostreaming\\application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\videostreaming\\web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\videostreaming\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\videostreaming\\application\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\videostreaming\\web\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\videostreaming\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\videostreaming\\application\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\videostreaming\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\videostreaming\\domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\videostreaming\\domain\\entities\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\videostreaming\\domain\\entities\\moviedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\moviedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\videostreaming\\domain\\entities\\moviewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\moviewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\videostreaming\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\videostreaming\\domain\\enums\\movietype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\movietype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\videostreaming\\domain\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\videostreaming\\domain\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\videostreaming\\domain\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\videostreaming\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 159,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250720134639_ChangeName.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Infrastructure\\Migrations\\20250720134639_ChangeName.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250720134639_ChangeName.cs",
+              "ToolTip": "D:\\VideoStreaming\\Infrastructure\\Migrations\\20250720134639_ChangeName.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250720134639_ChangeName.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T13:47:03.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\VideoStreaming\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T13:45:21.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Application\\Interfaces\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IMovieRepository.cs",
+              "ToolTip": "D:\\VideoStreaming\\Application\\Interfaces\\IMovieRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T13:16:10.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
+              "ToolTip": "D:\\VideoStreaming\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T13:04:12.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Application",
+              "DocumentMoniker": "D:\\VideoStreaming\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "D:\\VideoStreaming\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T12:37:56.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Application\\Interfaces\\IMovieService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IMovieService.cs",
+              "ToolTip": "D:\\VideoStreaming\\Application\\Interfaces\\IMovieService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IMovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:35:42.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\Program.cs",
+              "ToolTip": "D:\\VideoStreaming\\Web\\Program.cs",
+              "RelativeToolTip": "Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:08:10.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Web\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Web\\DependencyInjection.cs",
+              "ToolTip": "D:\\VideoStreaming\\Web\\DependencyInjection.cs",
+              "RelativeToolTip": "Web\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T12:01:41.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\VideoStreaming\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T11:50:51.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Web\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\MoviesController.cs",
+              "ToolTip": "D:\\VideoStreaming\\Web\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Web\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T11:24:13.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Infrastructure\\Repositories\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MovieRepository.cs",
+              "ToolTip": "D:\\VideoStreaming\\Infrastructure\\Repositories\\MovieRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\MovieRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T11:11:07.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Application\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\MovieService.cs",
+              "ToolTip": "D:\\VideoStreaming\\Application\\Services\\MovieService.cs",
+              "RelativeToolTip": "Application\\Services\\MovieService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T11:06:55.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250720104352_InitialCreate.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Infrastructure\\Migrations\\20250720104352_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250720104352_InitialCreate.cs",
+              "ToolTip": "D:\\VideoStreaming\\Infrastructure\\Migrations\\20250720104352_InitialCreate.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20250720104352_InitialCreate.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T10:43:55.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Application\\Class1.cs",
+              "RelativeDocumentMoniker": "Application\\Class1.cs",
+              "ToolTip": "D:\\VideoStreaming\\Application\\Class1.cs",
+              "RelativeToolTip": "Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T10:13:43.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MovieWriter.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Domain\\Entities\\MovieWriter.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\MovieWriter.cs",
+              "ToolTip": "D:\\VideoStreaming\\Domain\\Entities\\MovieWriter.cs",
+              "RelativeToolTip": "Domain\\Entities\\MovieWriter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:40:59.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovieDirector.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Domain\\Entities\\MovieDirector.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\MovieDirector.cs",
+              "ToolTip": "D:\\VideoStreaming\\Domain\\Entities\\MovieDirector.cs",
+              "RelativeToolTip": "Domain\\Entities\\MovieDirector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:40:29.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MovieActor.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Domain\\Entities\\MovieActor.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\MovieActor.cs",
+              "ToolTip": "D:\\VideoStreaming\\Domain\\Entities\\MovieActor.cs",
+              "RelativeToolTip": "Domain\\Entities\\MovieActor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T08:39:11.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Web.csproj",
+              "DocumentMoniker": "D:\\VideoStreaming\\Web\\Web.csproj",
+              "RelativeDocumentMoniker": "Web\\Web.csproj",
+              "ToolTip": "D:\\VideoStreaming\\Web\\Web.csproj",
+              "RelativeToolTip": "Web\\Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T06:42:37.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\VideoStreaming\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T06:25:42.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MovieType.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Domain\\Enums\\MovieType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\MovieType.cs",
+              "ToolTip": "D:\\VideoStreaming\\Domain\\Enums\\MovieType.cs",
+              "RelativeToolTip": "Domain\\Enums\\MovieType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T06:19:04.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Domain\\Entities\\Country.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Country.cs",
+              "ToolTip": "D:\\VideoStreaming\\Domain\\Entities\\Country.cs",
+              "RelativeToolTip": "Domain\\Entities\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T06:15:34.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Domain\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Person.cs",
+              "ToolTip": "D:\\VideoStreaming\\Domain\\Entities\\Person.cs",
+              "RelativeToolTip": "Domain\\Entities\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T06:10:01.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Domain\\Entities\\Genre.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Genre.cs",
+              "ToolTip": "D:\\VideoStreaming\\Domain\\Entities\\Genre.cs",
+              "RelativeToolTip": "Domain\\Entities\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T05:55:43.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\VideoStreaming\\Domain\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Movie.cs",
+              "ToolTip": "D:\\VideoStreaming\\Domain\\Entities\\Movie.cs",
+              "RelativeToolTip": "Domain\\Entities\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T05:51:06.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

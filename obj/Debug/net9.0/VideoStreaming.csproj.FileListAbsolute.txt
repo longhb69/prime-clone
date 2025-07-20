@@ -1,0 +1,7 @@
+D:\VideoStreaming\obj\Debug\net9.0\VideoStreaming.csproj.AssemblyReference.cache
+D:\VideoStreaming\obj\Debug\net9.0\VideoStreaming.GeneratedMSBuildEditorConfig.editorconfig
+D:\VideoStreaming\obj\Debug\net9.0\VideoStreaming.AssemblyInfoInputs.cache
+D:\VideoStreaming\obj\Debug\net9.0\VideoStreaming.AssemblyInfo.cs
+D:\VideoStreaming\obj\Debug\net9.0\VideoStreaming.csproj.CoreCompileInputs.cache
+D:\VideoStreaming\obj\Debug\net9.0\VideoStreaming.MvcApplicationPartsAssemblyInfo.cs
+D:\VideoStreaming\obj\Debug\net9.0\VideoStreaming.MvcApplicationPartsAssemblyInfo.cache
