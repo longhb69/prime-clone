@@ -8,6 +8,5 @@ public static class DependencyInjection
     {
         builder.Services.AddSwaggerGen();
         builder.Services.AddEndpointsApiExplorer();
-
     }
 }

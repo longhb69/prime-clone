@@ -28,5 +28,30 @@ public class MoviesController : ControllerBase
             return StatusCode(500, "An error occurred while fetching movies.");
         }
     }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetAsync(string id)
+    {
+        try
+        {
+            var movie = await _movieService.GetByIdAsync(id);
+
+            if (movie == null)
+                return NotFound();
+
+            return Ok(movie);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, "An error occurred while fetching movies.");
+        }
+    }
+
+    [HttpGet("genre/{genreId}")]
+    public async Task<IActionResult> GetByGenreAsync(int genreId)
+    {
+        var movies = await _movieService.GetByGenreAsync(genreId);
+        return Ok(movies);
+    }
 }
 

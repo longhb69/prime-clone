@@ -7,6 +7,7 @@ public class Movie
     public string Title { get; set; }
     public int Year { get; set; }
     public DateOnly Released { get; set; }
+    public int Runtime { get; set; }
     public string Plot { get; set; }
     public string Poster { get; set; }
     public ICollection<Genre> Genres { get; set; } = new List<Genre>();
@@ -18,7 +19,7 @@ public class Movie
 
     public MovieType Type { get; set; }
     public int TotalSeasons { get; set; }
-    public double ImdbScore { get; set; }      // Example: 7.8
-    public int MetacriticScore { get; set; }   // Example: 83
-    public int RottenTomatoesScore { get; set; } // Example: 91
+    public double ImdbScore { get; set; }      
+    public int MetacriticScore { get; set; }   
+    public int RottenTomatoesScore { get; set; } 
 }

@@ -8,6 +8,6 @@ namespace Domain.Enums;
 public enum MovieType
 {
     Movie,
-    Series
+    Series,
 }
 

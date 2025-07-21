@@ -96,6 +96,9 @@ namespace Infrastructure.Migrations
                     b.Property<int>("RottenTomatoesScore")
                         .HasColumnType("int");
 
+                    b.Property<int>("Runtime")
+                        .HasColumnType("int");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
