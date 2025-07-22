@@ -6,25 +6,176 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Application.Dtos;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Services;
 
 public class MovieService : IMovieService
 {
-    private readonly IMovieRepository _repository;
+    private readonly IApplicationDbContext _context;
 
-    public MovieService(IMovieRepository repository)
+    public MovieService(IApplicationDbContext context)
     {
-        _repository = repository;
+        _context = context;
     }
 
-    public async Task<List<MovieDto>> GetAllAsync() => await _repository.GetAllAsync();
-    public async Task<MovieDto?> GetByIdAsync(string id) => await _repository.GetByIdAsync(id);
-    public async Task<List<MovieDto>> GetByGenreAsync(int genreId) => await _repository.GetByGenreAsync(genreId);
+    public async Task<List<MovieDto>> GetAllAsync() {
+
+        var movies = await _context.Movies
+            .Include(m => m.Genres)
+            .Include(m => m.MovieDirectors)
+                .ThenInclude(m => m.Director)
+            .Include(m => m.MovieWriters)
+                .ThenInclude(m => m.Writer)
+            .Include(m => m.MovieActors)
+                .ThenInclude(m => m.Actor)
+            .Include(m => m.Countries)
+            .Include(m => m.MovieLanguages)
+                .ThenInclude(ml => ml.Language)
+            .ToListAsync();
+
+        var movieDtos = movies.Select(movie => new MovieDto
+        {
+            Id = movie.Id,
+            Title = movie.Title,
+            Year = movie.Year,
+            Released = movie.Released,
+            Runtime = movie.Runtime,
+            Plot = movie.Plot,
+            Languages = movie.MovieLanguages.Select(l =>
+                new LanguageDto { Id = l.Language.Id, Name = l.Language.Name }
+            ).ToList(),
+            Poster = movie.Poster,
+            Genres = movie.Genres.Select(g =>
+                new GenreDto { Id = g.Id, Name = g.Name }
+                ).ToList(),
+            Director = movie.MovieDirectors.Select(md =>
+                new PersonDto { Id = md.Director.Id, FullName = md.Director.FullName }
+                ).ToList(),
+            Writer = movie.MovieWriters.Select(mw =>
+                new PersonDto { Id = mw.Writer.Id, FullName = mw.Writer.FullName }
+                ).ToList(),
+            Actors = movie.MovieActors.Select(ma =>
+                new PersonDto { Id = ma.Actor.Id, FullName = ma.Actor.FullName }
+            ).ToList(),
+            Country = movie.Countries.Select(c =>
+                new CountryDto { Id = c.Id, Name = c.Name }
+                ).ToList(),
+            Type = movie.Type,
+            TotalSeasons = movie.TotalSeasons,
+            ImdbScore = movie.ImdbScore,
+            MetacriticScore = movie.MetacriticScore,
+            RottenTomatoesScore = movie.RottenTomatoesScore
+        }).ToList();
+        return movieDtos;
+    }
+    public async Task<MovieDto?> GetByIdAsync(string id)
+    {
+        var movie = await _context.Movies
+            .Include(m => m.Genres)
+            .Include(m => m.MovieDirectors)
+                .ThenInclude(m => m.Director)
+            .Include(m => m.MovieWriters)
+                .ThenInclude(m => m.Writer)
+            .Include(m => m.MovieActors)
+                .ThenInclude(m => m.Actor)
+            .Include(m => m.Countries)
+            .Include(m => m.MovieLanguages)
+                .ThenInclude(ml => ml.Language)
+            .FirstOrDefaultAsync(m => m.Id == id);
+
+        if (movie == null) return null;
+
+        return new MovieDto
+        {
+            Id = movie.Id,
+            Title = movie.Title,
+            Year = movie.Year,
+            Released = movie.Released,
+            Runtime = movie.Runtime,
+            Plot = movie.Plot,
+            Languages = movie.MovieLanguages.Select(l =>
+                new LanguageDto { Id = l.Language.Id, Name = l.Language.Name }
+            ).ToList(),
+            Poster = movie.Poster,
+            Genres = movie.Genres.Select(g =>
+                new GenreDto { Id = g.Id, Name = g.Name }
+            ).ToList(),
+            Director = movie.MovieDirectors.Select(md =>
+                new PersonDto { Id = md.Director.Id, FullName = md.Director.FullName }
+            ).ToList(),
+            Writer = movie.MovieWriters.Select(mw =>
+                new PersonDto { Id = mw.Writer.Id, FullName = mw.Writer.FullName }
+            ).ToList(),
+            Actors = movie.MovieActors.Select(ma =>
+                new PersonDto { Id = ma.Actor.Id, FullName = ma.Actor.FullName }
+            ).ToList(),
+            Country = movie.Countries.Select(c =>
+                new CountryDto { Id = c.Id, Name = c.Name }
+            ).ToList(),
+            Type = movie.Type,
+            TotalSeasons = movie.TotalSeasons,
+            ImdbScore = movie.ImdbScore,
+            MetacriticScore = movie.MetacriticScore,
+            RottenTomatoesScore = movie.RottenTomatoesScore
+        };
+    }
+    public async Task<List<MovieDto>> GetByGenreAsync(int[] genreId)
+    {
+        var movies = await _context.Movies
+            .Where(m => m.Genres.Any(g => genreId.Contains(g.Id)))
+            .Include(m => m.Genres)
+            .Include(m => m.MovieDirectors)
+                .ThenInclude(m => m.Director)
+            .Include(m => m.MovieWriters)
+                .ThenInclude(m => m.Writer)
+            .Include(m => m.MovieActors)
+                .ThenInclude(m => m.Actor)
+            .Include(m => m.Countries)
+            .Include(m => m.MovieLanguages)
+                .ThenInclude(ml => ml.Language)
+            .ToListAsync();
+
+        var movieDtos = movies.Select(movie => new MovieDto
+        {
+            Id = movie.Id,
+            Title = movie.Title,
+            Year = movie.Year,
+            Released = movie.Released,
+            Runtime = movie.Runtime,
+            Plot = movie.Plot,
+            Languages = movie.MovieLanguages.Select(l =>
+                new LanguageDto { Id = l.Language.Id, Name = l.Language.Name }
+            ).ToList(),
+            Poster = movie.Poster,
+            Genres = movie.Genres.Select(g =>
+                new GenreDto { Id = g.Id, Name = g.Name }
+            ).ToList(),
+            Director = movie.MovieDirectors.Select(md =>
+                new PersonDto { Id = md.Director.Id, FullName = md.Director.FullName }
+            ).ToList(),
+            Writer = movie.MovieWriters.Select(mw =>
+                new PersonDto { Id = mw.Writer.Id, FullName = mw.Writer.FullName }
+            ).ToList(),
+            Actors = movie.MovieActors.Select(ma =>
+                new PersonDto { Id = ma.Actor.Id, FullName = ma.Actor.FullName }
+            ).ToList(),
+            Country = movie.Countries.Select(c =>
+                new CountryDto { Id = c.Id, Name = c.Name }
+            ).ToList(),
+            Type = movie.Type,
+            TotalSeasons = movie.TotalSeasons,
+            ImdbScore = movie.ImdbScore,
+            MetacriticScore = movie.MetacriticScore,
+            RottenTomatoesScore = movie.RottenTomatoesScore
+        }).ToList();
+
+        return movieDtos;
+    }
 
     public async Task UpdateAsync(string id, UpdateMovieDto dto)
     {
-        var movie = await _repository.GetByIdAsync(id);
+        var movie = await _context.Movies.FindAsync(id);
         
         if(movie == null) 
             throw new Exception("movie not found");
@@ -44,14 +195,20 @@ public class MovieService : IMovieService
         //handle genre
     }
 
-    public Task AddAsync(Movie movie)
+    public async Task AddAsync(Movie movie)
     {
-        throw new NotImplementedException();
+        _context.Movies.Add(movie);
+        await _context.SaveChangesAsync();
     }
 
-    public Task DeleteAsync(string id)
+    public async Task DeleteAsync(string id)
     {
-        throw new NotImplementedException();
+        var moive = await _context.Movies.FindAsync(id);
+        if (moive != null)
+        {
+            _context.Movies.Remove(moive);
+            await _context.SaveChangesAsync();
+        }
     }
 }       
 

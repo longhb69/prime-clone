@@ -7,6 +7,7 @@ public class UpdateMovieDto
     public int Year { get; set; }
     public DateOnly Released { get; set; }
     public string Plot { get; set; }
+    public LanguageDto Language { get; set; }
     public string Poster { get; set; }
     public MovieType Type { get; set; }
     public int TotalSeasons { get; set; }

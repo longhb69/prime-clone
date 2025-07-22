@@ -11,6 +11,7 @@ public class MovieDto
     public DateOnly Released { get; set; }
     public int Runtime { get; set; }
     public string Plot { get; set; }
+    public List<LanguageDto> Languages { get; set; }
     public string Poster { get; set; }
     public List<GenreDto> Genres { get; set; }
     public List<PersonDto> Director { get; set; }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VideoStreaming\\VideoStreaming.csproj": {}
+    "D:\\prime-clone\\VideoStreaming.csproj": {}
   },
   "projects": {
-    "D:\\VideoStreaming\\VideoStreaming.csproj": {
+    "D:\\prime-clone\\VideoStreaming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VideoStreaming\\VideoStreaming.csproj",
+        "projectUniqueName": "D:\\prime-clone\\VideoStreaming.csproj",
         "projectName": "VideoStreaming",
-        "projectPath": "D:\\VideoStreaming\\VideoStreaming.csproj",
+        "projectPath": "D:\\prime-clone\\VideoStreaming.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\VideoStreaming\\obj\\",
+        "outputPath": "D:\\prime-clone\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

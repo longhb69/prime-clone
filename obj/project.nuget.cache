@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TWPusZFl4ZQ=",
+  "dgSpecHash": "KacriwDmQn8=",
   "success": true,
-  "projectFilePath": "D:\\VideoStreaming\\VideoStreaming.csproj",
+  "projectFilePath": "D:\\prime-clone\\VideoStreaming.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thanh\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
     "C:\\Users\\thanh\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"

@@ -1,5 +1,3 @@
-using Infrastructure.Repositories;
-
 namespace Microsoft.Extensions.DependencyInjection;
 
 public static class DependencyInjection

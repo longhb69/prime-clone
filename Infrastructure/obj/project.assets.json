@@ -1750,7 +1750,8 @@
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "Domain": "1.0.0",
-          "Microsoft.AspNetCore.Hosting": "2.3.0"
+          "Microsoft.AspNetCore.Hosting": "2.3.0",
+          "Microsoft.EntityFrameworkCore": "9.0.7"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -4439,35 +4440,42 @@
     ]
   },
   "packageFolders": {
-    "/home/long/.nuget/packages/": {}
+    "C:\\Users\\thanh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/long/NetCore/prime-clone/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "D:\\prime-clone\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "/home/long/NetCore/prime-clone/Infrastructure/Infrastructure.csproj",
-      "packagesPath": "/home/long/.nuget/packages/",
-      "outputPath": "/home/long/NetCore/prime-clone/Infrastructure/obj/",
+      "projectPath": "D:\\prime-clone\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
+      "outputPath": "D:\\prime-clone\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/long/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/long/NetCore/prime-clone/Application/Application.csproj": {
-              "projectPath": "/home/long/NetCore/prime-clone/Application/Application.csproj"
+            "D:\\prime-clone\\Application\\Application.csproj": {
+              "projectPath": "D:\\prime-clone\\Application\\Application.csproj"
             },
-            "/home/long/NetCore/prime-clone/Domain/Domain.csproj": {
-              "projectPath": "/home/long/NetCore/prime-clone/Domain/Domain.csproj"
+            "D:\\prime-clone\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\prime-clone\\Domain\\Domain.csproj"
             }
           }
         }
@@ -4482,7 +4490,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -4517,7 +4525,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/long/.dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

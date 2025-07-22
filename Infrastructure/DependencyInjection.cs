@@ -1,6 +1,5 @@
 ﻿using Application.Interfaces;
 using Infrastructure.Data;
-using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -17,6 +16,6 @@ public static class DependencyInjection
             options.UseSqlServer(connectionString);
         });
 
-        builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+        builder.Services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
     }
 }

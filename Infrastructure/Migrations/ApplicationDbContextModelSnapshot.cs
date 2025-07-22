@@ -71,6 +71,23 @@ namespace Infrastructure.Migrations
                     b.ToTable("Genres");
                 });
 
+            modelBuilder.Entity("Domain.Entities.Language", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Languages");
+                });
+
             modelBuilder.Entity("Domain.Entities.Movie", b =>
                 {
                     b.Property<string>("Id")
@@ -101,7 +118,8 @@ namespace Infrastructure.Migrations
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<int>("TotalSeasons")
                         .HasColumnType("int");
@@ -145,6 +163,21 @@ namespace Infrastructure.Migrations
                     b.HasIndex("DirectorId");
 
                     b.ToTable("MovieDirector");
+                });
+
+            modelBuilder.Entity("Domain.Entities.MovieLanguage", b =>
+                {
+                    b.Property<string>("MovieId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("LanguageId")
+                        .HasColumnType("int");
+
+                    b.HasKey("MovieId", "LanguageId");
+
+                    b.HasIndex("LanguageId");
+
+                    b.ToTable("MovieLanguage");
                 });
 
             modelBuilder.Entity("Domain.Entities.MovieWriter", b =>
@@ -445,6 +478,25 @@ namespace Infrastructure.Migrations
                     b.Navigation("Movie");
                 });
 
+            modelBuilder.Entity("Domain.Entities.MovieLanguage", b =>
+                {
+                    b.HasOne("Domain.Entities.Language", "Language")
+                        .WithMany("MovieLanguages")
+                        .HasForeignKey("LanguageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Movie", "Movie")
+                        .WithMany("MovieLanguages")
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Language");
+
+                    b.Navigation("Movie");
+                });
+
             modelBuilder.Entity("Domain.Entities.MovieWriter", b =>
                 {
                     b.HasOne("Domain.Entities.Movie", "Movie")
@@ -530,11 +582,18 @@ namespace Infrastructure.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Domain.Entities.Language", b =>
+                {
+                    b.Navigation("MovieLanguages");
+                });
+
             modelBuilder.Entity("Domain.Entities.Movie", b =>
                 {
                     b.Navigation("MovieActors");
 
                     b.Navigation("MovieDirectors");
+
+                    b.Navigation("MovieLanguages");
 
                     b.Navigation("MovieWriters");
                 });

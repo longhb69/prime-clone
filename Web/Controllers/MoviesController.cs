@@ -47,8 +47,8 @@ public class MoviesController : ControllerBase
         }
     }
 
-    [HttpGet("genre/{genreId}")]
-    public async Task<IActionResult> GetByGenreAsync(int genreId)
+    [HttpGet("genre")]
+    public async Task<IActionResult> GetByGenreAsync([FromQuery] int[] genreId)
     {
         var movies = await _movieService.GetByGenreAsync(genreId);
         return Ok(movies);

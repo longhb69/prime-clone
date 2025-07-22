@@ -8,5 +8,37 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.MoviesController",
+    "Method": "GetAsync",
+    "RelativePath": "api/Movies/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.MoviesController",
+    "Method": "GetByGenreAsync",
+    "RelativePath": "api/Movies/genre",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "genreId",
+        "Type": "System.Int32[]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

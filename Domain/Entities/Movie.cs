@@ -9,6 +9,7 @@ public class Movie
     public DateOnly Released { get; set; }
     public int Runtime { get; set; }
     public string Plot { get; set; }
+    public ICollection<MovieLanguage> MovieLanguages { get; set; } = new List<MovieLanguage>();
     public string Poster { get; set; }
     public ICollection<Genre> Genres { get; set; } = new List<Genre>();
     public ICollection<Country> Countries { get; set; } = new List<Country>();
