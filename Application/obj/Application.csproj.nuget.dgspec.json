@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\prime-clone\\Application\\Application.csproj": {}
+    "/home/long/NetCore/prime-clone/Application/Application.csproj": {}
   },
   "projects": {
-    "D:\\prime-clone\\Application\\Application.csproj": {
+    "/home/long/NetCore/prime-clone/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\prime-clone\\Application\\Application.csproj",
+        "projectUniqueName": "/home/long/NetCore/prime-clone/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\prime-clone\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\prime-clone\\Application\\obj\\",
+        "projectPath": "/home/long/NetCore/prime-clone/Application/Application.csproj",
+        "packagesPath": "/home/long/.nuget/packages/",
+        "outputPath": "/home/long/NetCore/prime-clone/Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/long/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\prime-clone\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\prime-clone\\Domain\\Domain.csproj"
+              "/home/long/NetCore/prime-clone/Domain/Domain.csproj": {
+                "projectPath": "/home/long/NetCore/prime-clone/Domain/Domain.csproj"
               }
             }
           }
@@ -48,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -79,32 +73,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/long/.dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\prime-clone\\Domain\\Domain.csproj": {
+    "/home/long/NetCore/prime-clone/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\prime-clone\\Domain\\Domain.csproj",
+        "projectUniqueName": "/home/long/NetCore/prime-clone/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\prime-clone\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "D:\\prime-clone\\Domain\\obj\\",
+        "projectPath": "/home/long/NetCore/prime-clone/Domain/Domain.csproj",
+        "packagesPath": "/home/long/.nuget/packages/",
+        "outputPath": "/home/long/NetCore/prime-clone/Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/long/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,7 +111,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -144,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/long/.dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "okvYx0jDDck=",
+  "dgSpecHash": "tvJ6ha0AG44=",
   "success": true,
-  "projectFilePath": "D:\\prime-clone\\Domain\\Domain.csproj",
+  "projectFilePath": "/home/long/NetCore/prime-clone/Domain/Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

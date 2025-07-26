@@ -18,7 +18,7 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplica
     public DbSet<Country> Countries => Set<Country>();
     public DbSet<Person> Persons => Set<Person>();
     public DbSet<Language> Languages => Set<Language>();
-
+    
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
