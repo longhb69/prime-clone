@@ -20,7 +20,7 @@ public class Movie
 
     public MovieType Type { get; set; }
     public int TotalSeasons { get; set; }
-    public double ImdbScore { get; set; }      
-    public int MetacriticScore { get; set; }   
-    public int RottenTomatoesScore { get; set; } 
+    public double? ImdbScore { get; set; }      
+    public int? MetacriticScore { get; set; }   
+    public int? RottenTomatoesScore { get; set; } 
 }

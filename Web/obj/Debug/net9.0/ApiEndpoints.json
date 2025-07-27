@@ -11,7 +11,23 @@
   },
   {
     "ContainingType": "Web.Controllers.MoviesController",
-    "Method": "GetAsync",
+    "Method": "AddAsync",
+    "RelativePath": "api/Movies",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.Movies.Commands.CreateMovie.CreateMovieCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.MoviesController",
+    "Method": "GetByIdAsync",
     "RelativePath": "api/Movies/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -20,6 +36,44 @@
       {
         "Name": "id",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetMovieById"
+  },
+  {
+    "ContainingType": "Web.Controllers.MoviesController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Movies/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.MoviesController",
+    "Method": "PatchMovie",
+    "RelativePath": "api/Movies/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "Application.Movies.Commands.UpdateMovie.UpdateMovieCommand",
         "IsRequired": true
       }
     ],
@@ -34,9 +88,25 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "genreId",
+        "Name": "genreIds",
         "Type": "System.Int32[]",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web.Controllers.MoviesController",
+    "Method": "GetByPersonAsync",
+    "RelativePath": "api/Movies/person",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personIds",
+        "Type": "System.Int32[]",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

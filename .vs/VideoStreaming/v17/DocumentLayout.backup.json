@@ -3,144 +3,56 @@
   "WorkspaceRootPath": "D:\\prime-clone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\prime-clone\\web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\prime-clone\\web\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\data\\configurations\\movieactorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\movieactorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\movielanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\movielanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\data\\configurations\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\movieconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\data\\configurations\\moviewriterconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\moviewriterconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\data\\configurations\\movielanguageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\movielanguageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\prime-clone\\web\\infrastructure\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\infrastructure\\customexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\movieactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\movies\\queries\\getmoviesbygenreswithpagination\\getmoviesbygenreswithpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\movies\\queries\\getmoviesbygenreswithpagination\\getmoviesbygenreswithpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\dtos\\moviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\movies\\queries\\getmoviebyid\\getmoviebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\movies\\queries\\getmoviebyid\\getmoviebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\dtos\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\dtos\\updatemoviedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\prime-clone\\web\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\data\\configurations\\moviedirectorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\moviedirectorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\movies\\queries\\getmoviebyperson\\getmoviebyperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\movies\\queries\\getmoviebyperson\\getmoviebyperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\movies\\commands\\createmovie\\createmovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\movies\\commands\\createmovie\\createmovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\moviedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\moviedirector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\movies\\commands\\updatemovie\\updatemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\movies\\commands\\updatemovie\\updatemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\enums\\movietype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\movietype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\movies\\commands\\deletemovie\\deletemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\movies\\commands\\deletemovie\\deletemovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\dtos\\languagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\dtos\\languagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\prime-clone\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\migrations\\20250720104352_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250720104352_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\prime-clone\\web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\migrations\\20250721090732_addruntime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250721090732_addruntime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\migrations\\20250720134639_changename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20250720134639_changename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|d:\\prime-clone\\infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{993D0C88-B8CA-4DE0-A180-D8FD1E9D4F0D}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\prime-clone\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|d:\\prime-clone\\domain\\entities\\moviewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA3211FA-31ED-492B-A6DF-0C405B114243}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\moviewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|d:\\prime-clone\\web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E5124A01-E190-4BD8-82E9-F1F41134C9A5}|Web\\Web.csproj|solutionrelative:web\\web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|d:\\prime-clone\\application\\movies\\queries\\getmovieswithpagination\\getmovieswithpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FA08B40-D6CF-40A6-A14E-0FB308F9E9BE}|Application\\Application.csproj|solutionrelative:application\\movies\\queries\\getmovieswithpagination\\getmovieswithpagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -150,443 +62,166 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Application\\Interfaces\\IApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IApplicationDbContext.cs",
-              "ToolTip": "D:\\prime-clone\\Application\\Interfaces\\IApplicationDbContext.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IApplicationDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T12:48:24.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MovieLanguageConfiguration.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieLanguageConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\MovieLanguageConfiguration.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieLanguageConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\MovieLanguageConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T06:06:02.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MovieLanguage.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\MovieLanguage.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\MovieLanguage.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\MovieLanguage.cs",
-              "RelativeToolTip": "Domain\\Entities\\MovieLanguage.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T06:03:35.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MovieWriterConfiguration.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieWriterConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\MovieWriterConfiguration.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieWriterConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\MovieWriterConfiguration.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T05:56:17.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MovieDirectorConfiguration.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieDirectorConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\MovieDirectorConfiguration.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieDirectorConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\MovieDirectorConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T05:54:20.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MovieActorConfiguration.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieActorConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\MovieActorConfiguration.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieActorConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\MovieActorConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T05:49:27.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LanguageDto.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Application\\Dtos\\LanguageDto.cs",
-              "RelativeDocumentMoniker": "Application\\Dtos\\LanguageDto.cs",
-              "ToolTip": "D:\\prime-clone\\Application\\Dtos\\LanguageDto.cs",
-              "RelativeToolTip": "Application\\Dtos\\LanguageDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T05:46:30.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Language.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\Language.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Language.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\Language.cs",
-              "RelativeToolTip": "Domain\\Entities\\Language.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T05:40:59.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UpdateMovieDto.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Application\\Dtos\\UpdateMovieDto.cs",
-              "RelativeDocumentMoniker": "Application\\Dtos\\UpdateMovieDto.cs",
-              "ToolTip": "D:\\prime-clone\\Application\\Dtos\\UpdateMovieDto.cs",
-              "RelativeToolTip": "Application\\Dtos\\UpdateMovieDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T05:35:16.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MovieDto.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Application\\Dtos\\MovieDto.cs",
-              "RelativeDocumentMoniker": "Application\\Dtos\\MovieDto.cs",
-              "ToolTip": "D:\\prime-clone\\Application\\Dtos\\MovieDto.cs",
-              "RelativeToolTip": "Application\\Dtos\\MovieDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T05:34:38.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "MovieConfiguration.cs",
               "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\MovieConfiguration.cs",
               "ToolTip": "D:\\prime-clone\\Infrastructure\\Data\\Configurations\\MovieConfiguration.cs",
               "RelativeToolTip": "Infrastructure\\Data\\Configurations\\MovieConfiguration.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wBsAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T02:59:14.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\prime-clone\\Web\\appsettings.json",
-              "RelativeDocumentMoniker": "Web\\appsettings.json",
-              "ToolTip": "D:\\prime-clone\\Web\\appsettings.json",
-              "RelativeToolTip": "Web\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-21T16:17:37.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\prime-clone\\Web\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Web\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\prime-clone\\Web\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Web\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-21T16:17:16.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20250721090732_AddRunTime.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Migrations\\20250721090732_AddRunTime.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250721090732_AddRunTime.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\Migrations\\20250721090732_AddRunTime.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20250721090732_AddRunTime.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T15:41:13.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "20250720134639_ChangeName.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Migrations\\20250720134639_ChangeName.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250720134639_ChangeName.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\Migrations\\20250720134639_ChangeName.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20250720134639_ChangeName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T13:47:03.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T13:45:21.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Application\\DependencyInjection.cs",
-              "ToolTip": "D:\\prime-clone\\Application\\DependencyInjection.cs",
-              "RelativeToolTip": "Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T13:04:12.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Application.csproj",
-              "DocumentMoniker": "D:\\prime-clone\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "Application\\Application.csproj",
-              "ToolTip": "D:\\prime-clone\\Application\\Application.csproj",
-              "RelativeToolTip": "Application\\Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-20T12:37:56.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IMovieService.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Application\\Interfaces\\IMovieService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IMovieService.cs",
-              "ToolTip": "D:\\prime-clone\\Application\\Interfaces\\IMovieService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IMovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T12:35:42.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Web\\Program.cs",
-              "ToolTip": "D:\\prime-clone\\Web\\Program.cs",
-              "RelativeToolTip": "Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T12:08:10.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Web\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Web\\DependencyInjection.cs",
-              "ToolTip": "D:\\prime-clone\\Web\\DependencyInjection.cs",
-              "RelativeToolTip": "Web\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T12:01:41.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T11:50:51.496Z",
+              "WhenOpened": "2025-07-27T04:51:28.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Web\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "Web\\Controllers\\MoviesController.cs",
-              "ToolTip": "D:\\prime-clone\\Web\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "Web\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T11:24:13.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Application\\Services\\MovieService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\MovieService.cs",
-              "ToolTip": "D:\\prime-clone\\Application\\Services\\MovieService.cs*",
-              "RelativeToolTip": "Application\\Services\\MovieService.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wIQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T11:06:55.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20250720104352_InitialCreate.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Migrations\\20250720104352_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20250720104352_InitialCreate.cs",
-              "ToolTip": "D:\\prime-clone\\Infrastructure\\Migrations\\20250720104352_InitialCreate.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20250720104352_InitialCreate.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T10:43:55.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "MovieWriter.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\MovieWriter.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\MovieWriter.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\MovieWriter.cs",
-              "RelativeToolTip": "Domain\\Entities\\MovieWriter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T08:40:59.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MovieDirector.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\MovieDirector.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\MovieDirector.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\MovieDirector.cs",
-              "RelativeToolTip": "Domain\\Entities\\MovieDirector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T08:40:29.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MovieActor.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\MovieActor.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\MovieActor.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\MovieActor.cs",
-              "RelativeToolTip": "Domain\\Entities\\MovieActor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T08:39:11.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Web.csproj",
-              "DocumentMoniker": "D:\\prime-clone\\Web\\Web.csproj",
-              "RelativeDocumentMoniker": "Web\\Web.csproj",
-              "ToolTip": "D:\\prime-clone\\Web\\Web.csproj",
-              "RelativeToolTip": "Web\\Web.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-20T06:42:37.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\prime-clone\\Infrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
               "ToolTip": "D:\\prime-clone\\Infrastructure\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T06:25:42.66Z",
+              "WhenOpened": "2025-07-27T04:51:20.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MovieType.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Enums\\MovieType.cs",
-              "RelativeDocumentMoniker": "Domain\\Enums\\MovieType.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Enums\\MovieType.cs",
-              "RelativeToolTip": "Domain\\Enums\\MovieType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Application\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Application\\GlobalUsings.cs",
+              "ToolTip": "D:\\prime-clone\\Application\\GlobalUsings.cs",
+              "RelativeToolTip": "Application\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T06:19:04.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Country.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\Country.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Country.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\Country.cs",
-              "RelativeToolTip": "Domain\\Entities\\Country.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T06:15:34.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Person.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\Person.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Person.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\Person.cs",
-              "RelativeToolTip": "Domain\\Entities\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T06:10:01.738Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Genre.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\Genre.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Genre.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\Genre.cs",
-              "RelativeToolTip": "Domain\\Entities\\Genre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T05:55:43.317Z"
+              "WhenOpened": "2025-07-26T17:47:53.715Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "D:\\prime-clone\\Domain\\Entities\\Movie.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Movie.cs",
-              "ToolTip": "D:\\prime-clone\\Domain\\Entities\\Movie.cs",
-              "RelativeToolTip": "Domain\\Entities\\Movie.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBYAAAAvAAAAAAAAAA==",
+              "Title": "UpdateMovie.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Application\\Movies\\Commands\\UpdateMovie\\UpdateMovie.cs",
+              "RelativeDocumentMoniker": "Application\\Movies\\Commands\\UpdateMovie\\UpdateMovie.cs",
+              "ToolTip": "D:\\prime-clone\\Application\\Movies\\Commands\\UpdateMovie\\UpdateMovie.cs",
+              "RelativeToolTip": "Application\\Movies\\Commands\\UpdateMovie\\UpdateMovie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T05:51:06.861Z",
+              "WhenOpened": "2025-07-26T17:47:27.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteMovie.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Application\\Movies\\Commands\\DeleteMovie\\DeleteMovie.cs",
+              "RelativeDocumentMoniker": "Application\\Movies\\Commands\\DeleteMovie\\DeleteMovie.cs",
+              "ToolTip": "D:\\prime-clone\\Application\\Movies\\Commands\\DeleteMovie\\DeleteMovie.cs",
+              "RelativeToolTip": "Application\\Movies\\Commands\\DeleteMovie\\DeleteMovie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:47:21.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateMovie.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Application\\Movies\\Commands\\CreateMovie\\CreateMovie.cs",
+              "RelativeDocumentMoniker": "Application\\Movies\\Commands\\CreateMovie\\CreateMovie.cs",
+              "ToolTip": "D:\\prime-clone\\Application\\Movies\\Commands\\CreateMovie\\CreateMovie.cs",
+              "RelativeToolTip": "Application\\Movies\\Commands\\CreateMovie\\CreateMovie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:47:16.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetMoviesWithPagination.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Application\\Movies\\Queries\\GetMoviesWithPagination\\GetMoviesWithPagination.cs",
+              "RelativeDocumentMoniker": "Application\\Movies\\Queries\\GetMoviesWithPagination\\GetMoviesWithPagination.cs",
+              "ToolTip": "D:\\prime-clone\\Application\\Movies\\Queries\\GetMoviesWithPagination\\GetMoviesWithPagination.cs",
+              "RelativeToolTip": "Application\\Movies\\Queries\\GetMoviesWithPagination\\GetMoviesWithPagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:47:09.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetMoviesByGenresWithPagination.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Application\\Movies\\Queries\\GetMoviesByGenresWithPagination\\GetMoviesByGenresWithPagination.cs",
+              "RelativeDocumentMoniker": "Application\\Movies\\Queries\\GetMoviesByGenresWithPagination\\GetMoviesByGenresWithPagination.cs",
+              "ToolTip": "D:\\prime-clone\\Application\\Movies\\Queries\\GetMoviesByGenresWithPagination\\GetMoviesByGenresWithPagination.cs",
+              "RelativeToolTip": "Application\\Movies\\Queries\\GetMoviesByGenresWithPagination\\GetMoviesByGenresWithPagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:47:03.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetMovieByPerson.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Application\\Movies\\Queries\\GetMovieByPerson\\GetMovieByPerson.cs",
+              "RelativeDocumentMoniker": "Application\\Movies\\Queries\\GetMovieByPerson\\GetMovieByPerson.cs",
+              "ToolTip": "D:\\prime-clone\\Application\\Movies\\Queries\\GetMovieByPerson\\GetMovieByPerson.cs",
+              "RelativeToolTip": "Application\\Movies\\Queries\\GetMovieByPerson\\GetMovieByPerson.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:46:57.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Web\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Web\\Controllers\\MoviesController.cs",
+              "ToolTip": "D:\\prime-clone\\Web\\Controllers\\MoviesController.cs*",
+              "RelativeToolTip": "Web\\Controllers\\MoviesController.cs*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAwFgAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:46:16.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Web\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Web\\GlobalUsings.cs",
+              "ToolTip": "D:\\prime-clone\\Web\\GlobalUsings.cs",
+              "RelativeToolTip": "Web\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:45:47.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetMovieById.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Application\\Movies\\Queries\\GetMovieById\\GetMovieById.cs",
+              "RelativeDocumentMoniker": "Application\\Movies\\Queries\\GetMovieById\\GetMovieById.cs",
+              "ToolTip": "D:\\prime-clone\\Application\\Movies\\Queries\\GetMovieById\\GetMovieById.cs",
+              "RelativeToolTip": "Application\\Movies\\Queries\\GetMovieById\\GetMovieById.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAjwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:38:34.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomExceptionHandler.cs",
+              "DocumentMoniker": "D:\\prime-clone\\Web\\Infrastructure\\CustomExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Web\\Infrastructure\\CustomExceptionHandler.cs",
+              "ToolTip": "D:\\prime-clone\\Web\\Infrastructure\\CustomExceptionHandler.cs",
+              "RelativeToolTip": "Web\\Infrastructure\\CustomExceptionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T13:28:34.473Z",
               "EditorCaption": ""
             }
           ]

@@ -600,3 +600,6 @@ D:\prime-clone\Web\obj\Debug\net9.0\Web.pdb
 D:\prime-clone\Web\obj\Debug\net9.0\Web.genruntimeconfig.cache
 D:\prime-clone\Web\obj\Debug\net9.0\ref\Web.dll
 D:\prime-clone\Web\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\prime-clone\Web\bin\Debug\net9.0\MediatR.dll
+D:\prime-clone\Web\bin\Debug\net9.0\MediatR.Contracts.dll
+D:\prime-clone\Web\bin\Debug\net9.0\Ardalis.GuardClauses.dll
